@@ -590,6 +590,226 @@
                 </div>
             </div>
 
+<!-- WEEK 2 GROCERY -->
+        <div id="week2-grocery" class="page">
+            <h2>Week 2: Tex-Mex Favorites</h2>
+            <h3>Grocery List</h3>
+
+            <div class="grocery-list">
+                <div class="grocery-category">
+                    <h4>Proteins:</h4>
+                    <ul>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 lb ground beef (90% lean or leaner) or ground turkey</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 lb boneless skinless chicken thighs</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 can black beans (no salt added or low sodium)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 can pinto beans (no salt added or low sodium)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Shredded cheese (reduced-fat cheddar)</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grocery-category">
+                    <h4>Vegetables:</h4>
+                    <ul>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>2 bell peppers (red and green)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>3 tomatoes</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 large onion</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 bag baby spinach</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 avocado</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>1 lime</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Jalapeño (optional)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Cilantro (fresh)</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grocery-category">
+                    <h4>Pantry & Staples:</h4>
+                    <ul>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Corn tortillas (small, whole grain)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Brown rice</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Salsa (jar, low sodium)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Low-sodium taco seasoning</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Extra virgin olive oil or cooking spray</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Garlic powder</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Cumin</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grocery-category">
+                    <h4>Extras:</h4>
+                    <ul>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Plain non-fat Greek yogurt (for sour cream substitute)</label>
+                        </li>
+                        <li class="grocery-item" onclick="toggleCheck(this)">
+                            <input type="checkbox" onclick="event.stopPropagation()">
+                            <label>Hot sauce (optional)</label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <button class="clear-checks-btn" onclick="clearAllChecks('week2-grocery')">Clear All Checks</button>
+            </div>
+        </div>
+
+        <!-- WEEK 2 MEALS -->
+        <div id="week2-meals" class="page">
+            <h2>Week 2: Tex-Mex Favorites</h2>
+            <h3>Daily Meals</h3>
+
+            <div class="meal-card">
+                <h4>Monday</h4>
+                
+                <p><span class="meal-label">LUNCH</span> <strong>Black bean and rice bowl</strong></p>
+                <div class="cook-extra">
+                    🍚 COOK EXTRA RICE TODAY - Make 2 cups dry rice for the week
+                </div>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Reheat 1 cup cooked brown rice. Top with ½ can drained black beans (warmed), 1 diced tomato, 2 tablespoons salsa, 2 tablespoons shredded cheese. Add hot sauce if you like heat!
+                </div>
+
+                <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Ground beef tacos with peppers and onions</strong></p>
+                <div class="cook-extra">
+                    🥩 COOK THE FULL POUND - You'll use half tonight and save the rest
+                </div>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Brown 1 lb ground beef in a large skillet over medium-high heat, 7-8 minutes. Drain any excess fat. Add 1 packet taco seasoning (or DIY: 1 tablespoon chili powder, 1 teaspoon cumin, ½ teaspoon garlic powder, salt). Add ½ cup water, simmer 5 minutes.<br><br>
+                    Meanwhile, sauté 1 sliced bell pepper and ½ sliced onion in 1 teaspoon olive oil until tender, about 8 minutes.<br><br>
+                    <em>Eat tonight:</em> Use half the taco meat. Warm 3-4 corn tortillas. Fill with meat, peppers, onions, salad greens, and a dollop of Greek yogurt.
+                </div>
+            </div>
+
+            <div class="meal-card">
+                <h4>Tuesday</h4>
+                
+                <p><span class="meal-label">LUNCH</span> <strong>Taco salad with beans and salsa dressing</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Arrange 2 cups spinach on a plate. Top with ⅓ cup reheated taco meat, remaining black beans, 1 diced tomato, and 2 tablespoons salsa as dressing. Add a squeeze of lime if you have it.
+                </div>
+
+                <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Grilled chicken thighs with peppers and pinto beans</strong></p>
+                <div class="cook-extra">
+                    🍗 COOK ALL 4 THIGHS - Save extras for later this week
+                </div>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Season 1 lb chicken thighs with olive oil, cumin, garlic powder, salt and pepper. Grill or bake at 400°F for 25-30 minutes until internal temp reaches 165°F.<br><br>
+                    Sauté remaining bell pepper and onion half in 1 tablespoon olive oil, 8-10 minutes.<br><br>
+                    Warm ½ can pinto beans on the stove with a pinch of cumin.<br><br>
+                    <em>Eat tonight:</em> 2 chicken thighs with half the vegetables and beans.
+                </div>
+            </div>
+
+            <div class="meal-card">
+                <h4>Wednesday</h4>
+                
+                <p><span class="meal-label">LUNCH</span> <strong>Bean and veggie burrito bowl</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Build your bowl with 1 cup reheated rice, remaining pinto beans (warmed), leftover sautéed peppers and onions, 3 tablespoons salsa, 2 tablespoons cheese. Top with cilantro if you have it.
+                </div>
+
+                <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Chicken fajitas with corn tortillas</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Slice 1 leftover chicken thigh into strips. Sauté in a pan with any remaining peppers/onions (or slice a fresh one), 1 teaspoon extra virgin olive oil, cumin, and chili powder, 5-7 minutes.<br><br>
+                    Warm 3-4 corn tortillas. Serve chicken and veggies with tortillas, salsa, and non-fat Greek yogurt.
+                </div>
+                <div class="flavor-tip">
+                    <strong>Flavor twist:</strong> Add a squeeze of lime and fresh cilantro for brighter flavor!
+                </div>
+            </div>
+
+            <div class="meal-card">
+                <h4>Thursday</h4>
+                
+                <p><span class="meal-label">LUNCH</span> <strong>Chicken and spinach salad with avocado</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Slice remaining chicken thigh. Arrange 2 cups spinach, add chicken, any leftover beans, 1 diced tomato, ½ sliced avocado. Squeeze lime over everything, drizzle with 1 tablespoon extra virgin olive oil, sprinkle with salt and pepper.
+                </div>
+
+                <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Beef and bean skillet over rice</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Reheat remaining taco meat in a skillet. Add 1 diced tomato, any leftover beans, ½ teaspoon cumin, pinch of chili powder. Stir and cook 5 minutes until heated through.<br><br>
+                    Serve over 1 cup reheated rice. Top with cheese and salsa if desired.
+                </div>
+            </div>
+
+            <div class="meal-card">
+                <h4>Friday</h4>
+                
+                <p><span class="meal-label">LUNCH</span> <strong>Quesadilla with chicken or beans</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Heat a skillet over medium heat. Place 1 corn tortilla in pan, sprinkle with 3 tablespoons cheese, add any leftover chicken (shredded) or beans, top with another tortilla. Cook 2-3 minutes per side until golden and cheese melts. Cut into wedges. Serve with salsa.
+                </div>
+
+                <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Mexican-style scrambled eggs</strong></p>
+                <div class="meal-instructions">
+                    <em>How to make:</em> Scramble 3 eggs in 1 teaspoon olive oil. Add any remaining peppers/onions, a few tablespoons of beans, cook until eggs are set. Top with salsa and cheese.<br><br>
+                    Serve with warm corn tortillas on the side.
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <strong>
+
             <!-- Continue with remaining weeks... -->
             <div id="week3-grocery" class="page">
                 <h2>Week 3: Comfort Classics</h2>
