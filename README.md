@@ -807,6 +807,470 @@
                 </div>
             </div>
 
+            <!-- ============================================================ -->
+<!-- WEEK 3 GROCERY LIST -->
+<!-- ============================================================ -->
+
+<div id="week3-grocery" class="page">
+    <h2>Week 3: Comfort Classics</h2>
+    <h3>Grocery List</h3>
+
+    <div class="grocery-list">
+        <div class="grocery-category">
+            <h4>Proteins:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb lean ground beef or turkey (90% lean or leaner)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb boneless pork chops (trimmed of visible fat)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 can white beans (no salt added or low sodium)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>4 salmon fillets (fresh or frozen, wild-caught preferred)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Eggs (½ dozen)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Vegetables:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 bag mixed salad greens</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 sweet potatoes</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb green beans</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 heads broccoli</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 carrots</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 onions</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Garlic (fresh or jar)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Pantry & Staples:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Whole wheat pasta</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Brown rice</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium marinara sauce (jar)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Extra virgin olive oil</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium chicken or vegetable broth</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium soy sauce</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dijon mustard</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dried thyme and rosemary</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Extras:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Parmesan cheese (small amount)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Lemon</label>
+                </li>
+            </ul>
+        </div>
+        
+        <button class="clear-checks-btn" onclick="clearAllChecks('week3-grocery')">Clear All Checks</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 3 MEALS -->
+<!-- ============================================================ -->
+
+<div id="week3-meals" class="page">
+    <h2>Week 3: Comfort Classics</h2>
+    <h3>Daily Meals</h3>
+
+    <div class="meal-card">
+        <h4>Monday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>White bean and vegetable soup</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> In a pot, sauté 1 diced onion and 2 sliced carrots in 1 tablespoon extra virgin olive oil over medium heat, 5 minutes. Add 2 minced garlic cloves, cook 1 minute. Add 1 can drained white beans, 3 cups low-sodium chicken or vegetable broth, 1 teaspoon dried thyme. Simmer 15 minutes. Season with salt and pepper.<br><br>
+            <em>Makes:</em> About 3 servings. Save extras in fridge for quick lunches!
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Baked salmon with roasted sweet potato and steamed broccoli</strong></p>
+        <div class="cook-extra">
+            🐟 BAKE ALL 4 SALMON FILLETS - You'll use extras this week
+        </div>
+        <div class="meal-instructions">
+            <em>How to make:</em> Place salmon on a baking sheet, drizzle with extra virgin olive oil, season with salt, pepper, and lemon juice. Bake at 400°F for 12-15 minutes until flaky.<br><br>
+            Cut 2 sweet potatoes into 1-inch cubes, toss with 1 tablespoon extra virgin olive oil, salt, pepper. Roast at 400°F for 25-30 minutes, flipping halfway.<br><br>
+            Steam 1 head of broccoli (cut into florets) for 5-7 minutes until tender. Season with lemon and olive oil.<br><br>
+            <em>Eat tonight:</em> 1 salmon fillet, half the sweet potato, half the broccoli.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Tuesday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Leftover salmon over mixed greens with lemon</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Flake 1 cold salmon fillet over 2 cups mixed greens. Add leftover roasted sweet potato cubes, drizzle with 1 tablespoon extra virgin olive oil and juice of ½ lemon. Season with salt and pepper.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Lean beef pasta with marinara and green beans</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Cook ½ lb whole wheat pasta according to package directions. Meanwhile, brown ½ lb ground beef in a skillet over medium-high heat, 7-8 minutes. Drain excess fat. Add 1½ cups marinara sauce, simmer 5 minutes.<br><br>
+            Steam or boil ½ lb green beans for 5-7 minutes until tender. Season with garlic powder and a drizzle of extra virgin olive oil.<br><br>
+            <em>Eat tonight:</em> Half the pasta with meat sauce, and half the green beans.<br><br>
+            <em>Save:</em> Remaining pasta and meat sauce for Thursday, remaining beef for tomorrow.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Wednesday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Sweet potato and white bean mash with salad</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Mash remaining roasted sweet potato with ½ cup white beans (warmed). Season with salt, pepper, and a pinch of rosemary. Serve with 2 cups mixed greens tossed in extra virgin olive oil and vinegar.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Pork chops with roasted carrots and broccoli</strong></p>
+        <div class="cook-extra">
+            🥩 COOK ALL 4 PORK CHOPS - Save for Friday
+        </div>
+        <div class="meal-instructions">
+            <em>How to make:</em> Season pork chops with salt, pepper, garlic powder, and thyme. Heat 1 tablespoon extra virgin olive oil in an oven-safe skillet over medium-high heat. Sear chops 3 minutes per side, then transfer skillet to 375°F oven for 8-10 minutes until internal temp reaches 145°F.<br><br>
+            Slice remaining carrots, toss with olive oil, salt, pepper. Roast at 375°F for 20-25 minutes.<br><br>
+            Steam remaining broccoli florets for 5-7 minutes.<br><br>
+            <em>Eat tonight:</em> 1 pork chop with half the vegetables.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Thursday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Pasta salad with veggies and white beans</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Use leftover pasta (cold is fine), add remaining white beans, any leftover roasted carrots or green beans, 2 tablespoons extra virgin olive oil, 1 tablespoon vinegar, salt, pepper. Toss together.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Ground beef and vegetable stir-fry over rice</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Heat 1 tablespoon extra virgin olive oil in a skillet. Add remaining ground beef (broken up), remaining green beans (cut in half), ½ sliced onion. Stir-fry 5-7 minutes. Season with garlic, low-sodium soy sauce, and pepper.<br><br>
+            Cook 1 cup brown rice according to package, or use pre-cooked if you have it.
+        </div>
+        <div class="flavor-tip">
+            <strong>Flavor variation:</strong> Add a splash of Dijon mustard or balsamic vinegar for a tangy twist!
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Friday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Leftover pork sliced over greens with roasted vegetables</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Slice 1 cold pork chop over 2 cups mixed greens. Add any remaining roasted carrots or broccoli. Dress with 1 tablespoon extra virgin olive oil, juice of ½ lemon, and Dijon mustard.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Simple salmon cakes with steamed vegetables</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Flake remaining salmon (about 1 fillet's worth), mix with 1 beaten egg, 2 tablespoons breadcrumbs (or crushed crackers), minced garlic, salt, pepper. Form into 3 small patties. Pan-fry in 1 tablespoon extra virgin olive oil over medium heat, 3-4 minutes per side until golden.<br><br>
+            Steam any remaining vegetables or open a can of green beans.
+        </div>
+    </div>
+
+    <div class="tip-box">
+        <strong>Weekend Flexibility:</strong> Use remaining pork chop for a simple salad or reheat with vegetables. Leftover soup makes an easy lunch!
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 4 GROCERY LIST -->
+<!-- ============================================================ -->
+
+<div id="week4-grocery" class="page">
+    <h2>Week 4: Asian-Inspired</h2>
+    <h3>Grocery List</h3>
+
+    <div class="grocery-list">
+        <div class="grocery-category">
+            <h4>Proteins:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb chicken breast (skinless)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb shrimp (frozen, peeled and deveined)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb extra-firm tofu</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 dozen eggs</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Vegetables:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 bag shredded cabbage or coleslaw mix</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 bell peppers</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 head broccoli</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 package snap peas or green beans</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 carrots</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 bunch green onions</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Fresh ginger (small knob)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Garlic</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Pantry & Staples:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Brown rice</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Rice vinegar</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium soy sauce</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Sesame oil (small bottle)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Honey</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Extra virgin olive oil</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Cornstarch</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Extras:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Sesame seeds (optional)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Sriracha or chili flakes (optional)</label>
+                </li>
+            </ul>
+        </div>
+        
+        <button class="clear-checks-btn" onclick="clearAllChecks('week4-grocery')">Clear All Checks</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 4 MEALS -->
+<!-- ============================================================ -->
+
+<div id="week4-meals" class="page">
+    <h2>Week 4: Asian-Inspired</h2>
+    <h3>Daily Meals</h3>
+
+    <div class="meal-card">
+        <h4>Monday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Asian-style cabbage salad with sesame-ginger dressing</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Combine 2 cups shredded cabbage, 1 shredded carrot, 2 sliced green onions. For dressing: whisk 1 tablespoon sesame oil, 1 tablespoon rice vinegar, 1 teaspoon honey, ½ teaspoon grated ginger, pinch of salt. Toss salad with dressing. Top with sesame seeds if you have them.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Chicken stir-fry with broccoli, bell peppers, and snap peas</strong></p>
+        <div class="cook-extra">
+            🍗 COOK ALL THE CHICKEN - You'll use extras this week
+        </div>
+        <div class="meal-instructions">
+            <em>How to make:</em> Cut 1 lb chicken breast into bite-sized pieces. Heat 1 tablespoon olive oil in a large skillet or wok over high heat. Add chicken, cook 5-6 minutes until cooked through. Remove chicken, set aside.<br><br>
+            In same pan, add 1 tablespoon oil, 2 cups broccoli florets, 1 sliced bell pepper, 1 cup snap peas. Stir-fry 5-7 minutes until tender-crisp.<br><br>
+            Make sauce: mix 2 tablespoons low-sodium soy sauce, 1 tablespoon honey, 1 teaspoon grated ginger, 1 minced garlic clove. Pour over vegetables, add chicken back in, toss everything together.
+        </div>
+        <div class="cook-extra">
+            🍚 COOK 2 CUPS BROWN RICE - Make extras for the week
+        </div>
+        <div class="meal-instructions">
+            <em>Eat tonight:</em> Half the stir-fry over 1 cup rice.<br>
+            <em>Save:</em> Remaining stir-fry for Wednesday, remaining chicken for tomorrow.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Tuesday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Leftover chicken and vegetables over cabbage</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Arrange 2 cups shredded cabbage on a plate. Top with ⅓ of leftover stir-fry (cold or reheated). Drizzle with extra soy sauce mixed with a little rice vinegar and sesame oil.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Garlic-ginger shrimp with stir-fried vegetables</strong></p>
+        <div class="cook-extra">
+            🍤 COOK ALL THE SHRIMP - Save some for Thursday
+        </div>
+        <div class="meal-instructions">
+            <em>How to make:</em> Thaw if frozen, pat dry. Heat 1 tablespoon olive oil in a skillet over medium-high heat. Add ½ lb shrimp, 2 minced garlic cloves, 1 teaspoon grated ginger, cook 2-3 minutes per side until pink.<br><br>
+            Stir-fry remaining bell pepper, broccoli, and snap peas in 1 tablespoon oil with garlic, 5-7 minutes.<br><br>
+            Season with low-sodium soy sauce and sesame oil.<br><br>
+            <em>Eat tonight:</em> ⅔ of the shrimp with half the vegetables over 1 cup reheated rice.<br>
+            <em>Save:</em> Remaining shrimp for Thursday.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Wednesday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Egg fried rice with mixed vegetables</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Heat 1 tablespoon olive or sesame oil in a skillet. Add 1 diced carrot, cook 3 minutes. Add 2 cups leftover rice (cold rice works best for fried rice), break up any clumps. Stir-fry 3-4 minutes. Push rice to the side, crack 2 eggs into the pan, scramble them, then mix into rice. Add 2 sliced green onions, splash of low-sodium soy sauce.<br><br>
+            <em>Makes:</em> A generous portion - eat what you want, save the rest.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Baked tofu with sesame-soy glaze and steamed vegetables</strong></p>
+        <div class="cook-extra">
+            🥡 PREPARE ALL THE TOFU - Save half for Friday
+        </div>
+        <div class="meal-instructions">
+            <em>How to make:</em> Drain tofu, press between paper towels to remove excess water. Cut into ½-inch thick slabs. Arrange on a baking sheet, brush with mixture of 2 tablespoons low-sodium soy sauce, 1 tablespoon sesame oil, 1 teaspoon honey, minced garlic. Bake at 400°F for 25-30 minutes, flipping halfway, until golden and slightly crispy.<br><br>
+            Steam remaining broccoli and slice and steam remaining carrots, 5-7 minutes.<br><br>
+            <em>Eat tonight:</em> Half the tofu with half the vegetables over rice.<br>
+            <em>Save:</em> Remaining tofu for Friday.
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Thursday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Shrimp and cabbage salad with rice vinegar dressing</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Toss 2 cups cabbage with remaining shrimp, 1 shredded carrot, 2 sliced green onions. Dress with 1 tablespoon rice vinegar, 1 teaspoon sesame oil, pinch of salt. Sprinkle with sesame seeds.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Chicken and vegetable stir-fry over rice</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Reheat remaining stir-fry from Monday. Serve over 1 cup reheated rice.
+        </div>
+        <div class="flavor-tip">
+            <strong>Flavor boost:</strong> Add a splash more soy sauce, fresh ginger, or a drizzle of sriracha if you like spice!
+        </div>
+    </div>
+
+    <div class="meal-card">
+        <h4>Friday</h4>
+        
+        <p><span class="meal-label">LUNCH</span> <strong>Tofu scramble with vegetables and soy sauce</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> Crumble remaining tofu with a fork. Sauté in 1 tablespoon oil with any remaining vegetables (cabbage, carrots, green onions) for 5-7 minutes. Season with low-sodium soy sauce, garlic powder, and a pinch of turmeric for color.
+        </div>
+        
+        <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Simple rice bowl with remaining proteins and vegetables</strong></p>
+        <div class="meal-instructions">
+            <em>How to make:</em> If you have any shrimp or chicken left, make a quick stir-fry. If not, use remaining tofu or make egg fried rice with whatever vegetables remain.<br><br>
+            The beauty of this week: everything mixes and matches! Use what you have.
+        </div>
+    </div>
+
+    <div class="tip-box">
+        <strong>Weekend Flexibility:</strong> Create simple rice bowls with any remaining proteins and vegetables. Cabbage keeps well - make another fresh salad with sesame dressing!
+    </div>
+</div>
+
+
             <div class="tip-box">
                 <strong>
 
