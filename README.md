@@ -807,10 +807,7 @@
                 </div>
             </div>
 
-            <div class="tip-box">
-                <strong>
-
-            <!-- WEEK 3 GROCERY -->
+             <!-- WEEK 3 GROCERY -->
             <div id="week3-grocery" class="page">
                 <h2>Week 3: Comfort Classics</h2>
                 <h3>Grocery List</h3>
@@ -915,6 +912,9 @@
                     <button class="clear-checks-btn" onclick="clearAllChecks('week5-grocery')">Clear All Checks</button>
                 </div>
             </div>
+
+            <div class="tip-box">
+                <strong>
 
             <!-- Continue with remaining weeks... -->
             <div id="week3-grocery" class="page">
