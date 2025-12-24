@@ -807,6 +807,166 @@
                 </div>
             </div>
 
+<!-- Continue with remaining weeks... -->
+<!-- WEEK 3 GROCERY -->
+<div id="week3-grocery" class="page">
+    <h2>Week 3: Comfort Classics</h2>
+    <h3>Grocery List</h3>
+
+    <div class="grocery-list">
+        <div class="grocery-category">
+            <h4>Proteins:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb lean ground beef or turkey (90% lean or leaner)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb boneless pork chops (trimmed of visible fat)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 can white beans (no salt added or low sodium)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>4 salmon fillets (fresh or frozen, wild-caught preferred)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Eggs (½ dozen)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Vegetables:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 bag mixed salad greens</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 sweet potatoes</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb green beans</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 heads broccoli</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 carrots</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 onions</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Garlic (fresh or jar)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Pantry & Staples:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Whole wheat pasta</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Brown rice</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium marinara sauce (jar)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Extra virgin olive oil</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium chicken or vegetable broth</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium soy sauce</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dijon mustard</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dried thyme and rosemary</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Extras:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Parmesan cheese (small amount)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Lemon</label>
+                </li>
+            </ul>
+        </div>
+        
+        <button class="clear-checks-btn" onclick="clearAllChecks('week3-grocery')">Clear All Checks</button>
+    </div>
+</div>
+            <div id="week3-meals" class="page">
+                <h2>Week 3: Comfort Classics - Meals</h2>
+                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <em>Detailed meal instructions for Week 3 would go here following the same format as Weeks 1-2.</em>
+                </p>
+            </div>
+
+            <div id="week4-grocery" class="page">
+                <h2>Week 4: Asian-Inspired</h2>
+                <h3>Grocery List</h3>
+                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <em>Week 4 grocery list content goes here.</em>
+                </p>
+            </div>
+
+            <div id="week4-meals" class="page">
+                <h2>Week 4: Asian-Inspired - Meals</h2>
+                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <em>Week 4 detailed meal instructions go here.</em>
+                </p>
+            </div>
+
+            <div id="week5-grocery" class="page">
+                <h2>Week 5: Italian Inspired</h2>
+                <h3>Grocery List</h3>
+                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <em>Week 5 grocery list content goes here.</em>
+                </p>
+            </div>
+
+            <div id="week5-meals" class="page">
+                <h2>Week 5: Italian Inspired - Meals</h2>
+                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <em>Week 5 detailed meal instructions go here.</em>
+                </p>
+            </div>
+
+            
                 body {
         font-family: 'Georgia', serif;
         line-height: 1.6;
@@ -1108,166 +1268,11 @@
         padding: 20px;
         margin-top: 40px;
     }
+
+    
 </style>
 
-            <!-- Continue with remaining weeks... -->
-<!-- WEEK 3 GROCERY -->
-<div id="week3-grocery" class="page">
-    <h2>Week 3: Comfort Classics</h2>
-    <h3>Grocery List</h3>
 
-    <div class="grocery-list">
-        <div class="grocery-category">
-            <h4>Proteins:</h4>
-            <ul>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>1 lb lean ground beef or turkey (90% lean or leaner)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>1 lb boneless pork chops (trimmed of visible fat)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>1 can white beans (no salt added or low sodium)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>4 salmon fillets (fresh or frozen, wild-caught preferred)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Eggs (½ dozen)</label>
-                </li>
-            </ul>
-        </div>
-
-        <div class="grocery-category">
-            <h4>Vegetables:</h4>
-            <ul>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>1 bag mixed salad greens</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>3 sweet potatoes</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>1 lb green beans</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>2 heads broccoli</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>3 carrots</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>2 onions</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Garlic (fresh or jar)</label>
-                </li>
-            </ul>
-        </div>
-
-        <div class="grocery-category">
-            <h4>Pantry & Staples:</h4>
-            <ul>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Whole wheat pasta</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Brown rice</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Low-sodium marinara sauce (jar)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Extra virgin olive oil</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Low-sodium chicken or vegetable broth</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Low-sodium soy sauce</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Dijon mustard</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Dried thyme and rosemary</label>
-                </li>
-            </ul>
-        </div>
-
-        <div class="grocery-category">
-            <h4>Extras:</h4>
-            <ul>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Parmesan cheese (small amount)</label>
-                </li>
-                <li class="grocery-item" onclick="toggleCheck(this)">
-                    <input type="checkbox" onclick="event.stopPropagation()">
-                    <label>Lemon</label>
-                </li>
-            </ul>
-        </div>
-        
-        <button class="clear-checks-btn" onclick="clearAllChecks('week3-grocery')">Clear All Checks</button>
-    </div>
-</div>
-            <div id="week3-meals" class="page">
-                <h2>Week 3: Comfort Classics - Meals</h2>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Detailed meal instructions for Week 3 would go here following the same format as Weeks 1-2.</em>
-                </p>
-            </div>
-
-            <div id="week4-grocery" class="page">
-                <h2>Week 4: Asian-Inspired</h2>
-                <h3>Grocery List</h3>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 4 grocery list content goes here.</em>
-                </p>
-            </div>
-
-            <div id="week4-meals" class="page">
-                <h2>Week 4: Asian-Inspired - Meals</h2>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 4 detailed meal instructions go here.</em>
-                </p>
-            </div>
-
-            <div id="week5-grocery" class="page">
-                <h2>Week 5: Italian Inspired</h2>
-                <h3>Grocery List</h3>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 5 grocery list content goes here.</em>
-                </p>
-            </div>
-
-            <div id="week5-meals" class="page">
-                <h2>Week 5: Italian Inspired - Meals</h2>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 5 detailed meal instructions go here.</em>
-                </p>
-            </div>
 
             <!-- TIPS PAGE -->
             <div id="tips" class="page">
