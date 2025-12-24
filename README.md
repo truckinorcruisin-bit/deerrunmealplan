@@ -807,114 +807,308 @@
                 </div>
             </div>
 
-             <!-- WEEK 3 GROCERY -->
-            <div id="week3-grocery" class="page">
-                <h2>Week 3: Comfort Classics</h2>
-                <h3>Grocery List</h3>
+                body {
+        font-family: 'Georgia', serif;
+        line-height: 1.6;
+        color: #333;
+        background: #f5f5f0;
+    }
 
-                <div class="grocery-list">
-                    <div class="grocery-category">
-                        <h4>Proteins:</h4>
-                        <ul>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Parmesan cheese (small amount)</label>
-                            </li>
-                        </ul>
-                    </div>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
 
-                    <div class="grocery-category">
-                        <h4>Vegetables:</h4>
-                        <ul>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>2 zucchini</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>1 eggplant (small)</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>3 tomatoes</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>1 bag spinach</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>1 bell pepper</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>1 onion</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Mushrooms (8 oz)</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Fresh basil</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Garlic</label>
-                            </li>
-                        </ul>
-                    </div>
+    header {
+        background: linear-gradient(135deg, #2c5f7c 0%, #3a7ca5 100%);
+        color: white;
+        padding: 40px 30px;
+        text-align: center;
+    }
 
-                    <div class="grocery-category">
-                        <h4>Pantry & Staples:</h4>
-                        <ul>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Whole wheat pasta</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Brown rice</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Low-sodium marinara sauce (jar)</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Extra virgin olive oil</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Balsamic vinegar</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Dried oregano and basil</label>
-                            </li>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Crushed red pepper</label>
-                            </li>
-                        </ul>
-                    </div>
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
 
-                    <div class="grocery-category">
-                        <h4>Extras:</h4>
-                        <ul>
-                            <li class="grocery-item" onclick="toggleCheck(this)">
-                                <input type="checkbox" onclick="event.stopPropagation()">
-                                <label>Lemon</label>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <button class="clear-checks-btn" onclick="clearAllChecks('week5-grocery')">Clear All Checks</button>
-                </div>
-            </div>
+    header p {
+        font-size: 1.2em;
+        opacity: 0.95;
+    }
 
-            <div class="tip-box">
-                <strong>
+    nav {
+        background: #2c5f7c;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav select {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .content {
+        padding: 40px 30px;
+    }
+
+    .page {
+        display: none;
+        animation: fadeIn 0.3s;
+    }
+
+    .page.active {
+        display: block;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+        color: #2c5f7c;
+        font-size: 2em;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #3a7ca5;
+    }
+
+    h3 {
+        color: #3a7ca5;
+        font-size: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        color: #2c5f7c;
+        font-size: 1.2em;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .intro-section {
+        background: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        border-left: 4px solid #3a7ca5;
+    }
+
+    ul {
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .grocery-list {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .grocery-category {
+        margin-bottom: 20px;
+    }
+
+    .grocery-category h4 {
+        color: #2c5f7c;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+    .grocery-category ul {
+        margin-left: 0;
+        list-style: none;
+    }
+
+    .grocery-item {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 8px;
+        background: white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
+        border: 2px solid transparent;
+    }
+
+    .grocery-item:hover {
+        border-color: #3a7ca5;
+        transform: translateX(2px);
+    }
+
+    .grocery-item.checked {
+        background: #e8f5e9;
+        border-color: #4caf50;
+        opacity: 0.7;
+    }
+
+    .grocery-item.checked label {
+        text-decoration: line-through;
+        color: #666;
+    }
+
+    .grocery-item input[type="checkbox"] {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .grocery-item label {
+        cursor: pointer;
+        flex-grow: 1;
+        font-size: 16px;
+        user-select: none;
+    }
+
+    .clear-checks-btn {
+        background: #ff5722;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .clear-checks-btn:hover {
+        background: #e64a19;
+    }
+
+    .meal-card {
+        background: white;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .meal-card h4 {
+        margin-top: 0;
+        color: #2c5f7c;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .meal-label {
+        background: #3a7ca5;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 4px;
+        font-size: 0.85em;
+        font-weight: normal;
+    }
+
+    .meal-instructions {
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .tip-box {
+        background: #fff9e6;
+        border-left: 4px solid #ffc107;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 4px;
+    }
+
+    .tip-box strong {
+        color: #f57c00;
+    }
+
+    .cook-extra {
+        background: #e8f5e9;
+        border-left: 4px solid #4caf50;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .flavor-tip {
+        background: #f3e5f5;
+        border-left: 4px solid #9c27b0;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 4px;
+        font-style: italic;
+    }
+
+    strong {
+        color: #2c5f7c;
+    }
+
+    .print-button {
+        background: #4caf50;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .print-button:hover {
+        background: #45a049;
+    }
+
+    @media print {
+        nav, .print-button {
+            display: none;
+        }
+        .page {
+            display: block !important;
+            page-break-after: always;
+        }
+        body {
+            background: white;
+        }
+        .container {
+            box-shadow: none;
+        }
+    }
+
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 1.8em;
+        }
+        .content {
+            padding: 20px 15px;
+        }
+    }
+
+    footer {
+        background: #2c5f7c;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+</style>
 
             <!-- Continue with remaining weeks... -->
    
