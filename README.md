@@ -1111,7 +1111,7 @@
 </style>
 
             <!-- Continue with remaining weeks... -->
-  <!-- WEEK 3 GROCERY (consolidated & fixed) -->
+<!-- WEEK 3 GROCERY -->
 <div id="week3-grocery" class="page">
     <h2>Week 3: Comfort Classics</h2>
     <h3>Grocery List</h3>
@@ -1140,14 +1140,98 @@
                     <input type="checkbox" onclick="event.stopPropagation()">
                     <label>Eggs (½ dozen)</label>
                 </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Vegetables:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 bag mixed salad greens</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 sweet potatoes</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>1 lb green beans</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 heads broccoli</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>3 carrots</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>2 onions</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Garlic (fresh or jar)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Pantry & Staples:</h4>
+            <ul>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Whole wheat pasta</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Brown rice</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium marinara sauce (jar)</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Extra virgin olive oil</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium chicken or vegetable broth</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Low-sodium soy sauce</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dijon mustard</label>
+                </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Dried thyme and rosemary</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grocery-category">
+            <h4>Extras:</h4>
+            <ul>
                 <li class="grocery-item" onclick="toggleCheck(this)">
                     <input type="checkbox" onclick="event.stopPropagation()">
                     <label>Parmesan cheese (small amount)</label>
                 </li>
+                <li class="grocery-item" onclick="toggleCheck(this)">
+                    <input type="checkbox" onclick="event.stopPropagation()">
+                    <label>Lemon</label>
+                </li>
             </ul>
         </div>
+        
+        <button class="clear-checks-btn" onclick="clearAllChecks('week3-grocery')">Clear All Checks</button>
     </div>
-</div> 
+</div>
             <div id="week3-meals" class="page">
                 <h2>Week 3: Comfort Classics - Meals</h2>
                 <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
