@@ -1318,19 +1318,237 @@
                 </div>
             </div>
 
+            <!-- WEEK 5 GROCERY -->
             <div id="week5-grocery" class="page">
                 <h2>Week 5: Italian Inspired</h2>
                 <h3>Grocery List</h3>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 5 grocery list content goes here.</em>
-                </p>
+
+                <div class="grocery-list">
+                    <div class="grocery-category">
+                        <h4>Proteins:</h4>
+                        <ul>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 lb ground turkey (93% lean or leaner)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 lb chicken sausage (look for lower sodium)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 can white beans (no salt added or low sodium)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Mozzarella cheese (part-skim)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Parmesan cheese (small amount)</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grocery-category">
+                        <h4>Vegetables:</h4>
+                        <ul>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>2 zucchini</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 eggplant (small)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>3 tomatoes</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 bag spinach</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 bell pepper</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>1 onion</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Mushrooms (8 oz)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Fresh basil</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Garlic</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grocery-category">
+                        <h4>Pantry & Staples:</h4>
+                        <ul>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Whole wheat pasta</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Brown rice</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Low-sodium marinara sauce (jar)</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Extra virgin olive oil</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Balsamic vinegar</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Dried oregano and basil</label>
+                            </li>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Crushed red pepper</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grocery-category">
+                        <h4>Extras:</h4>
+                        <ul>
+                            <li class="grocery-item" onclick="toggleCheck(this)">
+                                <input type="checkbox" onclick="event.stopPropagation()">
+                                <label>Lemon</label>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <button class="clear-checks-btn" onclick="clearAllChecks('week5-grocery')">Clear All Checks</button>
+                </div>
             </div>
 
+            <!-- WEEK 5 MEALS -->
             <div id="week5-meals" class="page">
-                <h2>Week 5: Italian Inspired - Meals</h2>
-                <p style="padding: 20px; background: #f8f9fa; border-radius: 8px;">
-                    <em>Week 5 detailed meal instructions go here.</em>
-                </p>
+                <h2>Week 5: Italian Inspired</h2>
+                <h3>Daily Meals</h3>
+
+                <div class="meal-card">
+                    <h4>Monday</h4>
+                    
+                    <p><span class="meal-label">LUNCH</span> <strong>White bean and spinach soup</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Heat 1 tablespoon extra virgin olive oil in a pot. Sauté 3 minced garlic cloves for 1 minute. Add 1 can drained white beans, 2 diced tomatoes, 3 cups low-sodium broth, 1 teaspoon Italian seasoning. Simmer 10 minutes. Add 2 cups spinach, cook until wilted (2 minutes). Season with salt, pepper, and a squeeze of lemon.<br><br>
+                        <em>Makes:</em> 3-4 servings. Perfect for multiple lunches!
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Turkey meatballs with marinara over pasta and sautéed zucchini</strong></p>
+                    <div class="cook-extra">
+                        🍝 MAKE ALL THE MEATBALLS - You'll use them throughout the week
+                    </div>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Mix 1 lb ground turkey, 1 egg, ⅓ cup breadcrumbs (or oats), 2 tablespoons parmesan, 1 teaspoon Italian seasoning, minced garlic, salt and pepper. Roll into 12-15 meatballs (about 1.5 inches each).<br><br>
+                        Place on a baking sheet, bake at 400°F for 20-25 minutes until cooked through.<br><br>
+                        Cook ½ lb whole wheat pasta according to package. Heat 1½ cups low-sodium marinara sauce.<br><br>
+                        Slice 1 zucchini, sauté in 1 tablespoon extra virgin olive oil with garlic, 5-7 minutes.<br><br>
+                        <em>Eat tonight:</em> 4-5 meatballs with half the pasta and marinara, half the zucchini.<br>
+                        <em>Save:</em> Remaining meatballs for Wednesday and Friday, remaining pasta for Thursday.
+                    </div>
+                </div>
+
+                <div class="meal-card">
+                    <h4>Tuesday</h4>
+                    
+                    <p><span class="meal-label">LUNCH</span> <strong>Italian chopped salad with turkey and mozzarella</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Chop 2 cups salad greens, 1 tomato, ¼ red onion, ¼ bell pepper. Add 2-3 crumbled turkey meatballs (cold or warmed), 2 tablespoons diced part-skim mozzarella. Dress with 1 tablespoon extra virgin olive oil, 1 tablespoon balsamic vinegar, pinch of oregano, salt and pepper.
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Chicken sausage with roasted peppers, onions, and mushrooms</strong></p>
+                    <div class="cook-extra">
+                        🌭 COOK ALL THE SAUSAGE - Save half for Thursday
+                    </div>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Slice 1 lb chicken sausage into rounds. Heat 1 tablespoon extra virgin olive oil in a large skillet, cook sausage 5-6 minutes until browned. Remove and set aside.<br><br>
+                        In same pan, add 1 sliced bell pepper, 1 sliced onion, 8 oz sliced mushrooms. Sauté 8-10 minutes until tender. Add sausage back in, season with Italian herbs and pepper.
+                    </div>
+                    <div class="cook-extra">
+                        🍚 COOK 2 CUPS BROWN RICE - Make extra for the week
+                    </div>
+                    <div class="meal-instructions">
+                        <em>Eat tonight:</em> Half the sausage and vegetables over 1 cup rice.<br>
+                        <em>Save:</em> Remaining sausage and vegetables for Thursday.
+                    </div>
+                </div>
+
+                <div class="meal-card">
+                    <h4>Wednesday</h4>
+                    
+                    <p><span class="meal-label">LUNCH</span> <strong>Leftover meatballs and marinara over spinach</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Warm 3-4 meatballs with ½ cup low-sodium marinara. Serve over 2 cups fresh spinach (the heat will wilt it slightly). Sprinkle with 1 tablespoon parmesan cheese.
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Baked eggplant and zucchini parmesan with salad</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Slice 1 small eggplant and remaining zucchini into ½-inch rounds. Arrange on baking sheets, brush lightly with extra virgin olive oil, season with salt and pepper. Bake at 400°F for 20 minutes, flipping halfway.<br><br>
+                        Top each round with 1 tablespoon low-sodium marinara and a sprinkle of part-skim mozzarella. Bake 5 more minutes until cheese melts.<br><br>
+                        Serve with 2 cups mixed greens tossed in balsamic vinegar and olive oil.
+                    </div>
+                    <div class="flavor-tip">
+                        <strong>Light version:</strong> Use less cheese than traditional parmesan - it's still delicious!
+                    </div>
+                </div>
+
+                <div class="meal-card">
+                    <h4>Thursday</h4>
+                    
+                    <p><span class="meal-label">LUNCH</span> <strong>White bean, tomato, and basil salad</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Combine remaining white beans, 1 diced tomato, handful of fresh basil (torn), ¼ diced red onion. Dress with 1 tablespoon extra virgin olive oil, juice of ½ lemon, salt and pepper. Serve over greens or with leftover pasta mixed in.
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Sausage and vegetable marinara over pasta or rice</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Reheat remaining sausage and vegetables. Add 1 cup low-sodium marinara sauce, simmer together 5 minutes. Serve over remaining pasta or 1 cup rice.
+                    </div>
+                    <div class="flavor-tip">
+                        <strong>Variation:</strong> Add crushed red pepper flakes for a spicy kick, or stir in fresh spinach at the end!
+                    </div>
+                </div>
+
+                <div class="meal-card">
+                    <h4>Friday</h4>
+                    
+                    <p><span class="meal-label">LUNCH</span> <strong>Pasta salad with white beans, tomatoes, and spinach</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Use any leftover pasta (cold is fine), add remaining white beans, 1 diced tomato, 1 cup spinach, ¼ diced onion. Dress with 2 tablespoons extra virgin olive oil, 1 tablespoon balsamic vinegar, ½ teaspoon Italian seasoning, salt and pepper.
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><span class="meal-label">DINNER</span> <strong>Simple turkey meatballs with marinara and vegetables</strong></p>
+                    <div class="meal-instructions">
+                        <em>How to make:</em> Warm remaining meatballs with low-sodium marinara. Serve with any remaining roasted vegetables or a fresh side salad.
+                    </div>
+                    <div class="flavor-tip">
+                        <strong>Option:</strong> If you have leftover rice, make it a bowl instead - meatballs and marinara over rice with wilted spinach is delicious!
+                    </div>
+                </div>
+
+                <div class="tip-box">
+                    <strong>Weekend Flexibility:</strong> Leftover soup makes easy lunches all weekend. Any remaining sausage can be quickly reheated with vegetables for a simple meal.
+                </div>
             </div>
 
         <footer>
@@ -1402,6 +1620,10 @@
     </script>
 </body>
 </html>
+
+
+
+
 
 
 
